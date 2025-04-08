@@ -138,11 +138,15 @@ h1, .h1{
 .fs-24{
     font-size: 24px;
 }
-
+.fs-30{
+    font-size: 30px;
+}
 .fs-35{
     font-size: 35px;
 }
-
+.fs-60{
+    font-size: 60px;
+}
 .fs-75{
     font-size: 75px;
 }
@@ -275,6 +279,7 @@ button#ScrollToTop {
     z-index: 99;
     color: #61a0ff;
 }
+
 button#ScrollToTop:hover {
     background: #61a0ff;
     color: #fff;
@@ -395,7 +400,7 @@ border-color: #c8c8c8;
     width: 55%;
     right: 0px;
     top: 0;
-    background-color: #FF8800;
+    background-color: #BC0003;
 }
 .inner-img {
     height: 550px;
@@ -404,7 +409,10 @@ border-color: #c8c8c8;
     right: auto;
     left: 0;
 }
-
+.form-control:focus {
+    border-color: #61a0ff;
+    box-shadow: none;
+}
 
 
 
@@ -433,6 +441,9 @@ border-color: #c8c8c8;
     .fs-35 {
         font-size: 28px;
     }
+    .fs-30 {
+        font-size: 25px;
+    }
     .fs-17 {
         font-size: 15px;
     }
@@ -458,6 +469,9 @@ border-color: #c8c8c8;
     .inner-img {
         height: 350px;
     }
+    .fs-60 {
+        font-size: 50px;
+    }
 }
 @media(max-width:1199px){
     .navbar-nav .nav-link {
@@ -481,6 +495,9 @@ border-color: #c8c8c8;
     }
     .fs-35 {
         font-size: 25px;
+    }
+    .fs-30 {
+        font-size: 22px;
     }
     .fs-17 {
         font-size: 13px;
@@ -560,6 +577,12 @@ border-color: #c8c8c8;
     .sub-banner-wrap {
         height: 250px;
     }
+    .fs-60 {
+        font-size: 40px;
+    }
+    .abtfull-wrap {
+        height: 250px;
+    }
 }
 @media(max-width:575px){
     .container{
@@ -577,5 +600,8 @@ border-color: #c8c8c8;
     }
     .inner-img {
         height: 250px;
+    }
+    .fs-60 {
+        font-size: 35px;
     }
 }
